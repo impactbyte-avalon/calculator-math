@@ -38,3 +38,9 @@ console.log(modulo());
 
 // Level 2
 //Experiment to call some chain of different functions in other functions
+ var f = 100
+
+function toCelsius() {
+     return (5/9) * (f-32);
+ }
+ console.log(toCelsius());
