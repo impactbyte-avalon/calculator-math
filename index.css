@@ -1,0 +1,12 @@
+[14:06, 10/6/2017] +62 815-8828-822: .h1 {
+  color: grey;
+  align: center;
+}
+
+body {
+  margin: 30px;
+}
+
+.bordered {
+  border: 1px solid pink;
+}
