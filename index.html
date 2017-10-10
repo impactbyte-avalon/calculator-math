@@ -13,29 +13,34 @@
 
   <div class="bordered pretty container">
 
+    <h1 class="h1">Simple Calculator</h1>
 
-            <label for="">First Number </label>
-            <input type="number" id="firstNumber" onkeypress="hitung()"> <br>
+    <label for="">First Number </label>
+    <input type="number" id="firstNumber"> <br>
+
+    <label for="">Second Number </label>
+    <input type="number" id="secondNumber"> <br>
 
     <div class="bordered row">
       <div class="col">
+
         <div>
           <label for="">Operator</label>
-          <select>
-            <option value="">+</option>
-            <option value="">/</option>
-            <option value="">*</option>
-            <option value="">-</option>
+          <select id="operator"  onchange="hitung()">
+            <option value=""></option>
+            <option value="+">+</option>
+            <option value="*">*</option>
+            <option value="-">-</option>
+            <option value="/">/</option>
           </select>
         </div>
       </div>
-      <label for="">Second Number </label>
-      <input type="number" id="secondNumber" onkeypress="hitung()"> <br>
+    </div>
+    <label for="">Result </label>
+    <input type="number" id="result">
+  </div>
+  <script src="index.js" charset="utf-8"></script>
 
-  -</div>
-  <
+</body>
 
-
-script src="index.js" charset="utf-8"></script>
-
-</body></html>
+</html>
